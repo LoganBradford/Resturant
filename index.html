@@ -3,15 +3,22 @@
 <html lang="English">
     <head>
         <link rel="stylesheet" href="myStyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Italiana&display=swap" rel="stylesheet">
+
+
         <meta charset="UTF-8">
         <title>La Polepetta di Mezzanotte</title>
     </head>
-
     <body>
-        <nav>
-            <div id="animatedLogo">
-                <!--Animated Logo--> 
-            </div>
+      <div id="wrapper">
+      <img id="background" alt="Cosy Resturant Interior" src="Images/Background.JPG">
+        <nav>   <!--Animated Logo--> 
+          <img id="animatedlogo" alt="meatball logo" src="Images/meatballs.png">
             <div id="navbar"> <!--https://www.cssportal.com/css3-menu-generator/ --> 
                 <div id='menu'>
                     <input type='checkbox' id='responsive-menu'><label></label>
@@ -37,17 +44,32 @@
                 </div>
             </div>
         </nav>
-        <div id="wrapper">
-            <img id="background" alt="Cosy Resturant Interior" src="Background.JPG">
             <header>
                 La Polepetta di Mezzanotte
             </header>
+            <main>
             <section>
-                <gallary>
-
-                </gallary>
-                <!--Photo Gallary, Mission Statement--> 
+                <div class="gallary">
+                  <img alt="1" src="Images/Burratagram.JPG">
+                  <img alt="2" src="Images/Fitaliancook.JPG">
+                  <img alt="3" src="Images/Jason1311.JPG">
+                  <img alt="4" src="Images/allanticovinaionyc.JPG">
+                  <img alt="5" src="Images/biancaingrosso.JPG">
+                  <img alt="6" src="Images/dinewithneo.JPG">
+                </div>
+                <!--Mission Statement-->
+               <p id="mission">At The Midnight Meatball, we bring late-night cravings to life with the heart and soul of Italy! Whether you’re indulging in our secret-recipe meatballs or twirling midnight spaghetti under the stars, we promise bold flavors, warm vibes, and a dash of mischief in every bite. Join us for a taste of Italy where the night never ends, and the meatballs are always magic!</p> 
             </section>
+            <section>
+              <div class="mapinfo">
+                <img alt="Birdseye View" src="Images/Map Location.JPG">
+                <p>Come Visit us Monday through Thursday 2PM-11PM!</p>
+              </div>
+            </section>
+          </main>
         </div>
+        <footer>
+          <p>2024 La Polepetta di Mezzanotte. All rights reserved.</p>
+      </footer>
     </body>
 </html>
